@@ -1,0 +1,35 @@
+        body {
+            margin: 0px;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        h3 {
+            font-family: fantasy;
+            font-size: 3em;
+            border-bottom: 2px solid rgb(231, 49, 79);
+            border-right: 2px solid rgb(231, 49, 79);
+            width: 400px;
+            text-align: center;
+            -moz-box-shadow: 4px 4px 5px #9c9090;
+            -o-box-shadow: 4px 4px 5px #9c9090;
+            -ms-box-shadow: 4px 4px 5px #9c9090;
+            -webkit-box-shadow: 4px 4px 5px #9c9090;
+            box-shadow: 4px 4px 5px #9c9090;
+            margin-top: 10px;
+        }
+        
+        img {
+            width: 400px;
+            height: 350px;
+            margin: 10px;
+            transition: all 1s;
+        }
+        
+        img:hover {
+            transform: scale(1.1);
+        }
